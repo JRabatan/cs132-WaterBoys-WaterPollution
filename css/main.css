@@ -233,6 +233,12 @@ input, select, textarea {
 			width: 900px;
 		}
 
+		.container.meminfo {
+
+		}
+
+		.meminfo.
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -1919,6 +1925,7 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			
 		}
 
 			.box.style1 h3 {
