@@ -303,6 +303,25 @@
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
 								<h3><a href="#"></a></h3>
+								<h3>Interpretation</h3>
+								<a href="https://docs.google.com/document/d/1tYg9MGDRra6pq94Otfuh8WAOcbH59QCBg18h_aDk1aQ/edit" style="font-size: 13px;">(document link)</a>
+								<br>
+								<br>
+								<p style="text-align: justify; text-justify: inter-word;"><b>Summary</b><br>
+									Parameters such as pH, Dissolved Oxygen (DO), Chloride, Color, and Biochemical Oxygen Demand are observed to be increasing through the years. Regions 3, 4A, 11, 12 and 13 have relatively higher levels of the 10 parameters. This signifies possible pollution and low water quality. The only parameter that showed a decrease in levels for three years was temperature (in Region 4A).</p>
+					
+								<p style="text-align: justify; text-justify: inter-word;"><b>Parameters</b><br>
+									<i><b>pH:</b></i> There is visible increase in pH values within the three years. Almost every waterbody obtained higher levels in 2020 and 2021. Although aquatic animals prefer higher pH levels, an extreme increase in pH levels can still negatively affect the biodiversity.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Temperature: </b></i> These parameters are relatively stable across regions. Only Region 4A in particular has visible changes in coloring (darker to lighter). This means that temperatures in the said region have been decreasing.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Dissolved Oxygen (DO): </b></i> Most of the regions see an increase in Dissolved Oxygen through time, especially waterbodies in rural areas. This can both be good and bad. As mentioned in the primary research question’s interpretation, low or extremely high DO levels can impair or kill fishes and invertebrates.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Total Suspended Solids (TSS):</b></i> Most of the cells show stability with little changes in their colors. On the other hand, the TSS levels in waterbodies in Mindanao can be observed as relatively higher.  Higher TSS may decrease water's natural dissolved oxygen levels and increase water temperature.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Nitrate:</b></i> There is stability in almost all of the waterbodies. However, there are outliers with extremely high levels, potentially signifying urban pollution.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Fecal Coliform:</b></i> Fecal Coliform levels are seen as stable. There are some rivers with high values, which indicates contamination.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Chloride:</b></i> High, and increasing levels of chloride can be observed from waterbodies in Regions 3 and 4A.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Color:</b></i> There is not much change in color levels in these waterbodies. There are some with increasing values.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Biochemical Oxygen Demand (BOD):</b></i> Regions 3 and 4A show high BOD levels. These are regions with significant organic pollution, reducing oxygen availability for aquatic life. On the other hand, most of these values are stable.</p>
+								<p style="text-align: justify; text-justify: inter-word;"><i><b>Phosphate:</b></i> Most values are low and stable throughout the years except for waterbodies in Regions 3 and 4A. Excessive phosphorus in surface water can cause explosive growth of aquatic plants and algae. This can lead to a variety of water-quality problems.</p>
+								
 								
 							</article>
 						</div>
@@ -316,7 +335,10 @@
 									Code: <a href="https://colab.research.google.com/drive/1ztvR6JJIT3DRaD4jbJU1ygWTvzsk1dBx?usp=sharing">rq 2 heat maps.ipynby</a><br>
 									CSV File: <a href="https://drive.google.com/file/d/1z6NY8Ub5VQweZPMDjZmkrszexQJGZPbY/view?usp=sharing">waterquality.csv</a><br>
 									Graphs: <a href="https://drive.google.com/drive/folders/1Ii9TLl6mGr-os2AshtQ6qJjn4gllnraJ?usp=sharing">rq2 graphs</a></p>
-								
+									<p style="text-align: justify; text-justify: inter-word;"><b>Color Scale: </b>Darker colors represent higher values of the water quality parameters (dirtier water) while lighter colors represent lower values (cleaner water), except for the parameter Dissolved Oxygen (DO), and pH.</p>
+									<p style="text-align: justify; text-justify: inter-word;"><b>Rows and Columns: </b>Each row represents a region-waterbody combination, while each column represents a year from 2019 to 2021.</p>
+									<p style="text-align: justify; text-justify: inter-word;"><b>Preprocessing: </b> The water quality parameters values were transformed since we’re dealing with variables having outliers. By doing this, we can ensure that each parameter contributes equally to the analysis and that no single parameter dominates due to its extremeness. We used NumPy’s log transformation function (np.log1p()) and SciKit-Learn’s MinMax Scaling function (MinMaxScaler()) to do this.</p>
+								<br>
 							</article>
 						</div>
 					</div>
