@@ -246,6 +246,85 @@
 						<h3>Here's what we found out.</h3>
 					</header>
 					<br>
+					<h2>Hypothesis Testing</h2>
+					<h3>Hypothesis 2</h3>
+					<br>
+					<div class="row">
+						<div class="col-6 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3>Null Hypothesis</h3>
+								<br>
+								<p style="text-align: justify; text-justify: inter-word;">There is no significant change in the water quality parameters in the various water bodies from 2019 to 2021.</p>
+							</article>
+						</div>
+						<div class="col-6 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3>Alternative Hypothesis</h3>
+								<br>
+								<p style="text-align: justify; text-justify: inter-word;">There is a significant change in the water quality parameters in the various water bodies from 2019 to 2021.</p>
+							</article>
+						</div>
+					</div>
+					<br>
+
+					<div class="col-8 col-6-medium col-12-small">
+						<section class="box style1">
+							<h3>Statistical Test: <b>Multivariate Analysis of Variance (MANOVA)</b></h3>
+
+							<p style="font-size: 15px;"><i>Note:</i> We aim to find the difference in water quality parameters (dependent variables) in various water bodies from 2019 to 2021 (independent variables). Research includes multiple dependent variables that are potentially correlated, hence, we use MANOVA instead of repeated ANOVA. t. Using multiple ANOVAs would increase the risk of a Type I error (a significant finding which occurs by chance due to repeating the same test a number of times). </p>
+							<h4><a href="https://us.sagepub.com/sites/default/files/upm-assets/9761_book_item_9761.pdf">Reference</a></h4>
+							
+						</section>		
+					</div>
+					<br>
+
+					<div class="col-8 col-6-medium col-12-small">
+						<section class="box style1">
+							<p>
+								<h3><b>Code: <a href="https://colab.research.google.com/drive/1nHMn6pGjaIAmzisrVN78gidBY3YrSYM_#scrollTo=3h4J0y6mKq7S">Without log transformation</a> and
+									<a href="https://colab.research.google.com/drive/1-_IHg-GtrJ8e-AVGREbCdES712xGj0yg#scrollTo=0bgMnptSkGqc">with log transformation</a>
+									</b></h3>
+								
+							</p>
+							<p>
+								<h3><b>CSV file:</b> <a href="https://raw.githubusercontent.com/JRabatan/cs132-WaterBoys-WaterPollution/main/data.csv">data</a></h3>
+								<p style="font-size: 15px;">
+									<i>Note:</i>  The raw dataset used for the statistical testing includes the following columns: Body of Water, BOD 2019, BOD 2020, BOD 2021, … , TSS 2019, TSS 2020, TSS 2021. This was eventually preprocessed into long format with the following columns: Body of Water, Year, BOD, CHLORIDE, COLOR, DO, FECAL COLI, NITRATE, PH, PHOSPHATE, TEMP, TSS.</b>
+								</p>
+							</p>
+						</section>		
+					</div>
+					<br>
+
+					<div class="col-8 col-6-medium col-12-small">
+						<section class="box style1">
+							<h3>Results</h3>
+						</section>		
+					</div>
+					<br>
+
+					<div class="col-8 col-6-medium col-12-small">
+						<section class="box style1">
+							<h3>Explanation</h3>
+						</section>		
+					</div>
+					<br>
+
+					<div class="col-8 col-6-medium col-12-small">
+						<section class="box style1">
+							<h3>Interpretation</h3>
+							<br>
+							<ul style="text-align: justify; text-justify: inter-word;">
+								<li>We <b>looked for statistically significant p-values (Pr > F)</b> in each section. A low p-value (below level of significance 0.05) indicates that the variable or interaction term has a significant effect on the dependent variables.</li>
+								<li>From the results, we found that <b>Wilks' lambda is close to 0, Pillai's trace is close to 1, and Hotelling-Lawley trace and Roy's greatest root has large F values</b> which supports our hypothesis that <b>there is a significant change in the water quality parameters in the various water bodies from 2019 to 2021.</b></li>
+								<li>Hence, we can <b>reject the Null Hypothesis</b>, supporting the alternative hypothesis that there are significant changes in water quality parameters over the years 2019-2021.</li>
+							</ul>
+						</section>		
+					</div>
+					<br>
+
+					<br>
+					<br>
 					<h2>Research Question 1</h2>
 					<h4>How do <b><i>water quality parameters</i></b> vary across different <b><i>regions and water bodies</i></b> in the Philippines?</h4>
 					<br>
@@ -401,14 +480,13 @@
 							<div class="meminfo">
 								<h3>Yanni Ella</h3>
 								<p>
-									
+									I’m Yanni, a 2nd-year Computer Science undergraduate student at the University of the Philippines Diliman. I have a strong passion for learning new things and thrive on challenges and competition. My enthusiasm for exploring innovative solutions and my dedication for continuous learning drive me to pursue computer science. I’m excited to apply  make more meaningful contributions to the field.
 								</p>
 								<p>
-									
+									I enjoy playing competitive games such as Valorant and League of Legends. My competitive spirit extends beyond gaming- I also love playing sports and travel adventures. To unwind, I enjoy binge-watching movies and series.
 								</p>
-							    <p>Email:<br>
-									Github:<br>
-									Facebook:</p>
+							    <p>Email: ycella@up.edu.ph<br>
+									Facebook: fb.com/YanniJoseElla</p>
 							</div>
 						</div>
 						<div>
